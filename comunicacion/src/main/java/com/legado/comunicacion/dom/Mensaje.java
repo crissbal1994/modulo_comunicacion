@@ -11,27 +11,29 @@ import javax.persistence.Id;
 public class Mensaje {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private int idMensaje;
-	private Grupo idGrupo;
-	private Usuario emisor;
+	private long idMensaje;
+	private long idGrupo;
+	private long emisor;
 	private Date enviado;
 	private String mensaje;
-	public int getIdMensaje() {
+	
+	
+	public long getIdMensaje() {
 		return idMensaje;
 	}
-	public void setIdMensaje(int idMensaje) {
+	public void setIdMensaje(long idMensaje) {
 		this.idMensaje = idMensaje;
 	}
-	public Grupo getIdGrupo() {
+	public long getIdGrupo() {
 		return idGrupo;
 	}
-	public void setIdGrupo(Grupo idGrupo) {
+	public void setIdGrupo(long idGrupo) {
 		this.idGrupo = idGrupo;
 	}
-	public Usuario getEmisor() {
+	public long getEmisor() {
 		return emisor;
 	}
-	public void setEmisor(Usuario emisor) {
+	public void setEmisor(long emisor) {
 		this.emisor = emisor;
 	}
 	public Date getEnviado() {
@@ -46,4 +48,6 @@ public class Mensaje {
 	public void setMensaje(String mensaje) {
 		this.mensaje = mensaje;
 	}
+	
+	
 }

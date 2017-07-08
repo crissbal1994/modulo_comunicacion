@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: comunicacion
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Gabriel
+Built-By: Jose
 Implementation-Vendor-Id: com.legado
-Build-Jdk: 1.8.0_131
+Build-Jdk: 1.8.0_112
 Implementation-URL: http://projects.spring.io/spring-boot/comunicacion
  /
 Created-By: Maven Integration for Eclipse
